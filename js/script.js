@@ -25,4 +25,4 @@ function get_site_copy_year() {
     container_site_copy_year.text(new Date().getFullYear())
 }
 
-body.onload(init())
+init()
