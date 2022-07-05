@@ -21,7 +21,6 @@ function init() {
 
 function get_site_copy_year() {
     var container_site_copy_year = $('#site-copy-year')
-    alert("Old Year: "+container_site_copy_year)
     container_site_copy_year.text(new Date().getFullYear())
 }
 
